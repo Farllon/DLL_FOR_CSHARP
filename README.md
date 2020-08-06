@@ -1,7 +1,7 @@
 # Ferramentas para economia de tempo produzidas em C#
 
 * ## CPF Validator
-    Uma ferramenta de verificaçõ de CPF, retorna um valor booleano. True se o CPF é válido, false se é inválido.
+Uma ferramenta de verificaçõ de CPF, retorna um valor booleano. True se o CPF é válido, false se é inválido.
 
     ### Funcionamento
     Link explicativo da validação do cpf: http://www.macoratti.net/alg_cpf.htm
