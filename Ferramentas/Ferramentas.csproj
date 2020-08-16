@@ -41,8 +41,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CPF.cs" />
+    <Compile Include="CPFValidator.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Utilities\AcmSum.cs" />
+    <Compile Include="Utilities\Digit.cs" />
+    <Compile Include="Utilities\Map.cs" />
+    <Compile Include="Utilities\Remainder.cs" />
+    <Compile Include="Utilities\ReverseString.cs" />
+    <Compile Include="Utilities\Str2IntArray.cs" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

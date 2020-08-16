@@ -4,3 +4,9 @@ C:\Users\farll\source\repos\Ferramentas\Ferramentas\obj\Debug\Ferramentas.csproj
 C:\Users\farll\source\repos\Ferramentas\Ferramentas\obj\Debug\Ferramentas.csproj.CoreCompileInputs.cache
 C:\Users\farll\source\repos\Ferramentas\Ferramentas\obj\Debug\Ferramentas.dll
 C:\Users\farll\source\repos\Ferramentas\Ferramentas\obj\Debug\Ferramentas.pdb
+C:\Users\farll\source\repos\DLL_FOR_CSHARP\Ferramentas\obj\Debug\Ferramentas.csprojAssemblyReference.cache
+C:\Users\farll\source\repos\DLL_FOR_CSHARP\Ferramentas\obj\Debug\Ferramentas.csproj.CoreCompileInputs.cache
+C:\Users\farll\source\repos\DLL_FOR_CSHARP\Ferramentas\obj\Debug\Ferramentas.dll
+C:\Users\farll\source\repos\DLL_FOR_CSHARP\Ferramentas\obj\Debug\Ferramentas.pdb
+C:\Users\farll\source\repos\DLL_FOR_CSHARP\Ferramentas\bin\Debug\Ferramentas.dll
+C:\Users\farll\source\repos\DLL_FOR_CSHARP\Ferramentas\bin\Debug\Ferramentas.pdb
