@@ -11,7 +11,7 @@ namespace Ferramentas
     {
         public static bool Validate(string cpf)
         {
-            if (cpf.Length != 11) throw new Exception("CPF não condiz com o tamanho real");
+            if (cpf.Length != 11) return false;
 
             string firstDigit = Digit.getDigit(cpf, 1).ToString();
             string secondDigit = Digit.getDigit(cpf, 2, firstDigit).ToString();
