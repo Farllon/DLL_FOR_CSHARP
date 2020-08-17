@@ -13,17 +13,11 @@ namespace Ferramentas
         {
             if (cpf.Length != 11) throw new Exception("CPF não condiz com o tamanho real");
 
-            List<string> originalDigits = new List<string>();
-            List<int> generatedDigits = new List<int>();
- 
-            originalDigits.Add(cpf[9].ToString());
-            originalDigits.Add(cpf[10].ToString());
+            string firstDigit = Digit.getDigit(cpf, 1).ToString();
+            string secondDigit = Digit.getDigit(cpf, 2, firstDigit).ToString();
 
-            generatedDigits.Add(Digit.getDigit(cpf, 1));
-            generatedDigits.Add(Digit.getDigit(cpf, 2, generatedDigits[0].ToString()));
-
-            bool valid = originalDigits[0] == generatedDigits[0].ToString() &&
-                         originalDigits[1] == generatedDigits[1].ToString() ?
+            bool valid = cpf[9].ToString()== firstDigit &&
+                         cpf[10].ToString() == secondDigit ?
                          true : false;
 
             return valid;
